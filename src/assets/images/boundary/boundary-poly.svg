@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 60 60">
+  <clipPath id="a">
+    <path style="opacity:0.5" stroke="#fff" stroke-width="2px" fill="none" d="M16,0,32,11.841,25.889,31H6.111L0,11.841Z" transform="translate(1519 1221)"/>
+  </clipPath>
+  <g transform="translate(-1505 -1208)"><rect fill="none" width="60" height="60" rx="10" transform="translate(1505 1208)"/>
+    <g style="opacity:0.5" clip-path="url(#a)">
+      <line stroke="#3d3d3d" stroke-width="2px" fill="none" y2="31" transform="matrix(0.588, 0.809, -0.809, 0.588, 1546.833, 1228.294)"/>
+      <line stroke="#3d3d3d" stroke-width="2px" fill="none" y2="31" transform="matrix(0.588, 0.809, -0.809, 0.588, 1539.78, 1218.586)"/>
+      <line stroke="#3d3d3d" stroke-width="2px" fill="none" y2="31" transform="matrix(0.588, 0.809, -0.809, 0.588, 1550.36, 1233.148)"/>
+      <line stroke="#3d3d3d" stroke-width="2px" fill="none" y2="31" transform="matrix(0.588, 0.809, -0.809, 0.588, 1553.299, 1238.193)"/>
+      <line stroke="#3d3d3d" stroke-width="2px" fill="none" y2="31" transform="matrix(0.588, 0.809, -0.809, 0.588, 1543.307, 1223.44)"/>
+    </g>
+    <g fill="none" transform="translate(1519 1221)">
+      <path stroke="none" d="M16,0,32,11.841,25.889,31H6.111L0,11.841Z"/>
+      <path class="poly" fill="#3d3d3d" stroke="none" d="M 16 2.488124847412109 L 2.340457916259766 12.59699821472168 L 7.572778701782227 29 L 24.42722129821777 29 L 29.65954208374023 12.59699821472168 L 16 2.488124847412109 M 16 0 L 32 11.84095001220703 L 25.88854026794434 31 L 6.111459732055664 31 L 0 11.84095001220703 L 16 0 Z"/>
+    </g>
+  </g>
+</svg>

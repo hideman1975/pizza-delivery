@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  production: true,
+  name: "PROD",
+  wsUrl: "ws://46.254.21.5:8091"
 };

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 60 60">
+  <clipPath id="a2">
+    <circle stroke="#3d3d3d" stroke-width="2px" fill="none" cx="17" cy="17" r="17" transform="translate(1450 1221)"/>
+  </clipPath>
+  <g transform="translate(-1437 -1208)">
+    <rect fill="none" width="60" height="60" rx="6" transform="translate(1437 1208)"/>
+    <g class="circle" stroke="#3d3d3d" stroke-width="2px" fill="none" transform="translate(1450 1221)">
+      <circle stroke="none" cx="17" cy="17" r="17"/>
+      <circle fill="none" cx="17" cy="17" r="16"/>
+    </g>
+    <g style="opacity:0.5" clip-path="url(#a2)" transform="matrix(0.588, 0.809, -0.809, 0.588, 1606.282, -676.506)">
+      <line stroke="#3d3d3d" stroke-width="2px" fill="none" y2="31" transform="translate(1467.5 1222.5)"/>
+      <line stroke="#3d3d3d" stroke-width="2px" fill="none" y2="31" transform="translate(1455.5 1222.5)"/>
+      <line stroke="#3d3d3d" stroke-width="2px" fill="none" y2="31" transform="translate(1473.5 1222.5)"/>
+      <line stroke="#3d3d3d" stroke-width="2px" fill="none" y2="31" transform="translate(1479.309 1223.088)"/>
+      <line stroke="#3d3d3d" stroke-width="2px" fill="none" y2="31" transform="translate(1461.5 1222.5)"/>
+    </g>
+  </g>
+</svg>

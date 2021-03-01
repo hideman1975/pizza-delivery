@@ -36,27 +36,24 @@ export class Shop {
       }
 
       public createPolygon = (polygon) => {
-        // const triangleCoords = [
-        //     { lat: 25.774, lng: -80.19 },
-        //     { lat: 18.466, lng: -66.118 },
-        //     { lat: 32.321, lng: -64.757 },
-        //     { lat: 25.774, lng: -80.19 },
-        //   ];
-        
           // Construct the polygon.
           const bermudaTriangle = new google.maps.Polygon({
             paths: polygon,
-            strokeColor: "#FF0000",
+            strokeColor: "#FFFFFF",
+            editable: false,
             strokeOpacity: 0.8,
             strokeWeight: 2,
-            fillColor: "#FF0000",
+            fillColor: "#FFC83D",
             fillOpacity: 0.35,
           });
           bermudaTriangle.setMap(this.map);
-        
+          bermudaTriangle.addListener('click', () => {
+            this.getPathCoordinates(bermudaTriangle.getPath().getArray());
+          });
       }
 
       private createInfoWindow = () => {
+        console.log('-----------------------Info Window---------------------------');
         const info = '<div><h3>Pizzeria</h3></div>' + '<div> Name - '+ this.name +'</div>'
         const infowindow = new google.maps.InfoWindow({
           content: info
@@ -64,5 +61,11 @@ export class Shop {
       this.marker.addListener('click', () => {
         infowindow.open(this.map, this.marker);
       });
+      }
+
+      private getPathCoordinates = (path: Array<google.maps.LatLng>) => {
+        path.forEach(item => {
+          console.log('LatLng', item.lat() + '--' + item.lng())
+        })
       }
 }

@@ -1,5 +1,34 @@
+@import "../../assets/sass/variables/colors";
+
 .sidenav-container {
   height: 100%;
+
+  .mat-list-base .mat-list-item {
+    color: $c6;
+    font-size: 21px;
+
+    &:hover {
+      background: $darkGrey;
+      color: $yellow;
+      transition: all 0.2s ease-out;
+    }
+  }
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .mat-drawer {
+    color: $c6;
+    background-color: $c12;
+}
+
+  mat-nav-list {
+    font-size: 12px;
+    background: $c12;
+  }
 }
 
 .sidenav {
@@ -15,3 +44,75 @@
   top: 0;
   z-index: 1;
 }
+
+.mat-toolbar-single-row {
+  padding: 0;
+}
+
+.top-menu {
+  background: $yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .top-menu_items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  
+    .top-menu_item_state {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .top-menu_item_state_title {
+      font-size: 18px;
+      line-height: 21px;
+    }
+
+    .top-menu_item_state_indicator {
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+
+  .top-menu_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px;
+    width: 170px;
+    height: 100%;
+
+    &:hover {
+      background-color: rgba($wine, $alpha20);
+    }
+  }
+
+  mat-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+
+    ::ng-deep svg {
+      width: 24px;
+      height: 24px;
+      path {
+        //fill: rgb(38, 0, 255);
+        stroke: rgb(38, 0, 255);
+      }
+      
+    }
+
+  }
+}
+
+

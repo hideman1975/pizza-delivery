@@ -1,0 +1,54 @@
+$regularUrl: url('/assets/fonts/roboto_regular/Roboto-Regular.woff') format('woff'),
+url('/assets/fonts/roboto_regular/Roboto-Regular.ttf') format('truetype');
+$italicUrl: url('/assets/fonts/roboto_italic/Roboto-Italic.woff') format('woff'),
+url('/assets/fonts/roboto_italic/Roboto-Italic.ttf') format('truetype');
+$mediumUrl: url('/assets/fonts/roboto_medium/Roboto-Medium.woff') format('woff'),
+url('/assets/fonts/roboto_medium/Roboto-Medium.ttf') format('truetype');
+$mediumItalicUrl: url('/assets/fonts/roboto_mediumitalic/Roboto-MediumItalic.woff') format('woff'),
+url('/assets/fonts/roboto_mediumitalic/Roboto-MediumItalic.ttf') format('truetype');
+$lightUrl: url('/assets/fonts/roboto_light/Roboto-Light.woff') format('woff'),
+url('/assets/fonts/roboto_light/Roboto-Light.ttf') format('truetype');
+$lightItalicUrl: url('/assets/fonts/roboto_lightitalic/Roboto-LightItalic.woff') format('woff'),
+url('/assets/fonts/roboto_lightitalic/Roboto-LightItalic.ttf') format('truetype');
+
+@font-face {
+  font-family: Regular;
+  src: $regularUrl;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Italic;
+  src: $italicUrl;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Medium;
+  src: $mediumUrl;
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: MediumItalic;
+  src: $mediumItalicUrl;
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Light;
+  src: $lightUrl;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: LightItalic;
+  src: $lightItalicUrl;
+  font-weight: 300;
+  font-style: normal;
+}

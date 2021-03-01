@@ -24,7 +24,7 @@ export class Vehicle {
         this.angle = this.getAngle(this.position, newPosition);
       }
       
-      this.marker.setIcon(this.vehicleIconService.getIcon(this.angle, this.color));
+      this.marker.setIcon(this.vehicleIconService.getIcon(this.angle, '#261EFF'));
       //this.marker.setPosition(newPosition);
       //this.position = newPosition;
     }
